@@ -24,6 +24,19 @@
           "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
         ]
       }
+    }, {
+      "name": "requests",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "resources": {
+        "urls": [
+          "/assets/**"
+        ]
+      },
+      "cacheConfig": {
+        "maxAge": "1h",
+        "strategy": "freshness"
+      }
     }
   ]
 }
